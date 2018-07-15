@@ -6,7 +6,7 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content.includes === 'pong') {
+    if (message.content.includes(pong)) {
     	message.reply('ping');
   	}
 });
